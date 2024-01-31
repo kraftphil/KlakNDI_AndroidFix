@@ -13,6 +13,7 @@ static class AndroidHelper
 
     public static void SetupNetwork()
     {
+        return;
         // Enable multicasting: This also adds the network permissions to the
         // application manifest.
         NetworkTransport.SetMulticastLock(true);
